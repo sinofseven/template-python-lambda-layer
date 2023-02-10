@@ -13,9 +13,3 @@ Resources:
       Type: String
       Value: !Ref LayerBase
 
-  ParameterLayerArnScraping:
-    Type: AWS::SSM::Parameter
-    Properties:
-      Name: /Golden/Layer/Scraping
-      Type: String
-      Value: !Ref LayerScraping
